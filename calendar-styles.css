@@ -237,3 +237,11 @@ footer {
         padding: 0 20px;
     }
 }
+    --first-courier-day-line-color: red;
+    --delivery-day-line-color: teal;
+    .first-courier-day {
+        border-top: 2px solid var(--first-courier-day-line-color);
+    }
+    .delivery-day {
+        border-bottom: 2px solid var(--delivery-day-line-color);
+    }
